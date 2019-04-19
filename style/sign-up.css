@@ -1,0 +1,60 @@
+.body{
+    background-color: #f6f5f2;
+
+}
+@media (min-width: 978px) {
+    .container-fluid {
+
+    }
+}
+
+
+
+.main-part{
+    text-align: center
+}
+
+div.container{
+
+}
+h1{
+    margin-top: 1%;
+    top: 10%;
+    background-color: black;
+    text-align: center;
+    border-radius: 4px;
+    color: ghostwhite;
+    margin-bottom: 0;
+}
+
+form{
+
+    margin-top:0;
+    border: black;
+    border-style: solid;
+    border-width: 5px;
+}
+ul.container{
+    text-align: center;
+}
+ul li{
+    list-style: none;
+}
+
+.form-control{
+    background-color: #343434;
+    height: 55px;
+    font-size: 20px;
+    color: #f6f5f2;
+}
+
+button{
+
+}
+
+div.admin-log-in{
+
+}
+a{
+
+}

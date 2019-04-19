@@ -37,14 +37,11 @@ html, body {
 .create-title {
     margin-top: 50px;
     margin-bottom: 30px;
-    margin-left: 48px;
     width: 50%;
-    border-radius: 10px;
 }
 
 .create-description {
     width: 50%;
-    border-radius: 10px;
     overflow: scroll;
 }
 
@@ -53,12 +50,10 @@ html, body {
     width: 100px;
     margin-top: 30px;
     background-color: #2ecc71;
-    border-radius: 10px;
 }
 
-.create-submit {
-    width: 50%;
-    margin-left: 80px;
+#submit {
+    margin-left: 20%;
 }
 
 
