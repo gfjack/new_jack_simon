@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>log-in</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../jack_simon-sign-in-out/style/log-in.css">
-    <link rel="stylesheet" href="../jack_simon-sign-in-out/style/index.css">
+    <link rel="stylesheet" href="style/log-in.css">
+    <link rel="stylesheet" href="style/index.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -33,7 +33,7 @@
             <div class="main-part">
                 <!--log in part -->
                 <div id="log-in" class="col-xs-12 ">
-                    <form action="/" method="post" >
+                    <form action="index.html" method="post" >
                         <div class="border p-4">
                             <div class="md-form form-group w-50" style="margin-left: 25%">
                                 <input type="text" class="form-control" id="in-account" placeholder="e-mail ">
@@ -43,14 +43,14 @@
                                 <input type="password" class="form-control" id="in-password" placeholder="your password">
                             </div>
                         </div>
-                        <div class="admin-log-in" style="margin-left: 41%">
+                        <div class="admin-log-in" >
                             <label>
                                 <input type="checkbox" class="check-admin" >
                             </label>log in as an administrator
                         </div>
-                        <button type="submit" class="btn btn-primary" style="margin-left: 45%">log in</button>
+                        <input type="submit" class="btn btn-primary" value="Sig in">
                         <br>
-                        <a href="sign-up.html" style="margin-left: 41%">not have an account? create one now</a>
+                        <a href="sign-up.html" >not have an account? create one now</a>
                     </form>
                 </div>
             </div>
